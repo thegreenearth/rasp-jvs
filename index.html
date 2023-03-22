@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+    </script>
+</head>
+
 <body>
+    <h2>Demo JavaScript in Head</h2>
 
-    <h2>What Can JavaScript Do?</h2>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
 
-    <p>JavaScript can show hidden HTML elements.</p>
-    <p id="demo" style="display:none">Hello JavaScript!</p>
-
-    <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
-
-    <p>JavaScript can show hidden HTML elements.</p>
-    <p>JavaScript can show hidden HTML elements.</p>
 </body>
 
 </html>
