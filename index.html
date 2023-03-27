@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="css/mystyles.css">
 
 <body>
 
-    <h1>My First Web Page</h1>
-    <p>My First Paragraph</p>
+    <h1>Learning with JavaScript</h1>
+    <ul>
+        <li>JavaScript Where to.</li>
+        <p>In HTML, JavaScript code is inserted between script and script tags.</p>
+        <li>JavaScript Display Possibilities</li>
 
-    <p id="demo"></p>
-
-    <script>
-        document.getElementById("demo").innerHTML = 5 + 6;
-    </script>
-   <!--Including from js file-->
-    <script src="Js/ex1.js"></script>
-
+        <p id="inlist">- Writing into an HTML element, using <b>innerHTML.</b></p>
+        <p id="inllist"><b>document.getElementById("demo").innerHTML = 5 + 6;</b> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_dom"> :Example:</a> </p>
+        <p id="inlist">- Writing into the HTML output using <b>document.write().</b></p>
+        <p id="inllist"><b>document.write(5 + 6);</b> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_write"> :Example:</a> </p>
+        <p id="inlist">- Writing into an alert box, using  <b>window.alert().</b></p>
+        <p id="inllist"><b>window.alert(5 + 6);</b> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_alert"> :Example:</a> </p>
+        <p id="inlist">- Writing into the browser console, using  <b>console.log().</b></p>
+        <p id="inllist"><b>console.log(5 + 6);</b> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_console"> :Example:</a> </p>
+    </ul> 
+    
 </body>
 
 </html>
